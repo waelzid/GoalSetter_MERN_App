@@ -4,14 +4,12 @@ import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css' 
 import Header from './components/Header'
 import Dashboard from './pages/Dashboard'
+import Sample from './pages/sample'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import {register,reset} from './features/auth/authSlice'
 function App() {
-  return(
-    <h1>Hello world this is working</h1>
-  )
-  /*return (
+  return (
     <>
     <Router>
     <div className="container">
@@ -25,8 +23,8 @@ function App() {
     </Router>
     <ToastContainer />
     </>
-  );*/
+  );
 }
 
 export default App;
-//</><>
+//<></>
